@@ -1,3 +1,5 @@
+require 'spec_helper'
+
 feature 'so that I can save a website' do
   scenario "add site's title and address to bookmark manager" do
     visit('/links/new')
@@ -7,7 +9,7 @@ feature 'so that I can save a website' do
     expect(current_path).to eq '/links'
 
     within 'ul#links' do
-      expect(page).to have_content('memes')
+      expect(page).to have_content('funny memes')
     end
   end
 end
