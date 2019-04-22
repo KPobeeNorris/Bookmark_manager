@@ -73,7 +73,7 @@ GEM
     mini_portile2 (2.4.0)
     multi_json (1.13.1)
     mustermann (1.0.3)
-    nokogiri (1.10.2)
+    nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
     pg (1.1.4)
     public_suffix (3.0.3)
