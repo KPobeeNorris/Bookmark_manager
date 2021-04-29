@@ -1,0 +1,19 @@
+version: 2
+updates:
+- package-ecosystem: bundler
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: nokogiri
+    versions:
+    - 1.11.1
+    - 1.11.2
+  - dependency-name: database_cleaner
+    versions:
+    - 1.8.5
+    - 2.0.0
+  - dependency-name: capybara
+    versions:
+    - 3.35.1
